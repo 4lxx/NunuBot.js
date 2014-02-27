@@ -1,7 +1,20 @@
-var config = {};
-
-config.teamspeak = {
-    server: "localhost",
-    username: "user",
-    password: "password"
+{
+ "teamspeak": {
+    "server":   "localhost",
+    "username": "serveradmin",
+    "password": "foobar",
+    "serverID": 1,
+    "lolChans": [1,2,3,20],
+    "tierMap": {
+      "BRONZE":     15,
+      "SILVER":     16,
+      "GOLD":       17,
+      "PLATIUM":    18,
+      "DIAMOND":    19,
+      "CHALLENGER": 20
+    }
+ },
+ "resteemo": {
+   "contact": "foo@example.com"
+ }
 }
